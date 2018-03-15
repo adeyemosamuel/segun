@@ -5,10 +5,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-login',
-  templateUrl: 'login.html',
+  selector: 'page-signup',
+  templateUrl: 'signup.html',
 })
-export class LoginPage {
+export class SignupPage {
+
+  hideBackButton:boolean=true;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -17,12 +19,8 @@ export class LoginPage {
    
   }
 
-  signup(){
-    this.navCtrl.push('SignupPage');
-  }
-
-  forgot(){
-    this.navCtrl.push('ForgotPage');
+  goBack() {
+    this.navCtrl.pop();
   }
 
 }

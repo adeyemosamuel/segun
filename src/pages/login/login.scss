@@ -44,4 +44,10 @@ page-login {
     .money{
         padding-top: 30% !important; 
     }
+
+    i {
+        // margin: 0 auto !important;
+        font-size: 20px !important;
+        color: map-get($colors, taxi);
+    }
 }

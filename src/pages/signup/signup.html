@@ -1,0 +1,59 @@
+<ion-content class="no-scroll" padding>
+  <div>
+    <i class="fas fa-long-arrow-alt-left" (click)="goBack()" left></i>
+  </div>
+
+  <div class="logo">
+    <img src="assets/imgs/taxi.svg" />
+  </div>
+  <div>
+    <h2 text-center ion-text color="taxi">
+      <strong style="color:white;">ZION</strong> TAXI
+    </h2>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img class="facebook" src="assets/imgs/facebook.png" />
+        <p text-center style="color:white;">Facebook</p>
+      </ion-col>
+
+      <ion-col>
+        <img class="google" src="assets/imgs/google.png" />
+        <p text-center style="color:white;">Google+</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div text-center>
+    <span style="color:white; font-size:20px;">OR</span>
+  </div>
+
+  <div class="money">
+    <ion-list>
+      <ion-item no-lines>
+        <ion-icon color="taxi" item-end name="person"></ion-icon>
+        <ion-label style="font-size: 15px;" stacked>Username</ion-label>
+        <ion-input [(ngModel)]="username" style="color:white;" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item no-lines>
+        <i class="fa fa-phone" item-end></i>
+        <ion-label style="font-size: 15px;" stacked>Mobile Number</ion-label>
+        <ion-input [(ngModel)]="telephone" style="color:white;" type="tel"></ion-input>
+      </ion-item>
+
+      <ion-item no-lines>
+        <i class="fa fa-key" item-end></i>
+        <ion-label style="font-size: 15px;" stacked>Password</ion-label>
+        <ion-input [(ngModel)]="password" style="color:white;" type="password"></ion-input>
+      </ion-item>
+
+    </ion-list>
+
+    <button class="button" ion-button full color="taxi">REGISTER</button>
+
+
+  </div>
+</ion-content>

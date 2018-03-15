@@ -1,0 +1,79 @@
+page-signup {
+
+    background-image: url('../assets/imgs/eko.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+ ion-content {
+      background: rgba(0, 0, 0, 0.75) !important;
+      height: 100% !important;
+    }
+    ion-item {
+      background: transparent !important;
+    }
+
+    ion-label{
+        color: white;
+        
+    }
+
+
+    .no-scroll .scroll-content{
+        overflow: hidden;
+      }
+
+   
+    .logo{
+        margin:0 auto !important; 
+        height: 100px;
+        width: 100px;
+        // margin-top: 80px;
+        display: block;  
+    }
+
+    .facebook{
+        margin-right: 20px !important;
+        height: 30px;
+        width: 30px;
+    }
+
+    // .or{
+    //     margin-left: auto !important;
+    //     margin-right: auto !important;
+    // }
+
+    .google{
+        margin-left: 20px !important;
+        height: 30px;
+        width: 30px;
+        display: block
+    }
+
+    i {
+        // margin: 0 auto !important;
+        font-size: 20px !important;
+        color: map-get($colors, taxi);
+    }
+
+
+
+    .button{
+        height: 50px;
+    }
+
+    ion-item{
+        border-bottom: 1px solid #fef100 !important;
+    }
+
+    .money{
+        padding-top: 10% !important; 
+    }
+
+    .back-arrow-button {
+        .fa-long-arrow-alt-left {
+          color: map-get($colors, dark) !important;
+          font-size: 20px;
+          margin-left: 10px;
+          margin-top: 4px;
+        }
+      }
+}
