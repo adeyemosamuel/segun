@@ -1,0 +1,44 @@
+<ion-content class="no-scroll" padding>
+
+  <div class="logo">
+    <img src="assets/imgs/taxi.svg" />
+  </div>
+<div >
+  <h2 text-center ion-text color="taxi">
+      <strong style="color:white;">SEGUN</strong> TAXI
+    </h2>
+  </div>
+
+<div class="money">
+  <ion-list>
+    <ion-item no-lines>
+      <ion-icon color="taxi" item-end name="person"></ion-icon>
+      <ion-label style="font-size: 15px;" stacked>Username</ion-label>
+      <ion-input [(ngModel)]="username"  style="color:white;"  type="text"></ion-input>
+    </ion-item>
+
+    <ion-item no-lines>
+      <ion-icon color="taxi" item-end name="lock"></ion-icon>
+      <ion-label style="font-size: 15px;" stacked>Password</ion-label>
+      <ion-input [(ngModel)]="password"  style="color:white;" type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <button class="button" ion-button full color="taxi">LOGIN</button>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <button ion-button clear block item-start color="keke">Create Account</button>
+      </ion-col>
+
+      <ion-col col-6>
+          <button ion-button clear block item-end color="keke">Forget Password?</button>
+        </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+
+</div>
+</ion-content>
