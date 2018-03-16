@@ -1,6 +1,6 @@
 <ion-content class="no-scroll" padding>
   <div>
-    <i class="fas fa-long-arrow-alt-left" (click)="goBack()" left></i>
+    <i class="fas fa-angle-left" (click)="goBack()" left></i>
   </div>
 
   <div class="logo">
@@ -14,15 +14,16 @@
 
   <ion-grid>
     <ion-row>
-      <ion-col>
+      <ion-col text-center>
         <img class="facebook" src="assets/imgs/facebook.png" />
-        <p text-center style="color:white;">Facebook</p>
+        <p  style="color:white;">Facebook</p>
       </ion-col>
 
-      <ion-col>
+      <ion-col  text-center>
         <img class="google" src="assets/imgs/google.png" />
-        <p text-center style="color:white;">Google+</p>
+        <p style="color:white;">Google+</p>
       </ion-col>
+
     </ion-row>
   </ion-grid>
 
@@ -34,19 +35,19 @@
     <ion-list>
       <ion-item no-lines>
         <ion-icon color="taxi" item-end name="person"></ion-icon>
-        <ion-label style="font-size: 15px;" stacked>Username</ion-label>
+        <ion-label style="font-size:15px; color:white;" stacked>Username</ion-label>
         <ion-input [(ngModel)]="username" style="color:white;" type="text"></ion-input>
       </ion-item>
 
       <ion-item no-lines>
         <i class="fa fa-phone" item-end></i>
-        <ion-label style="font-size: 15px;" stacked>Mobile Number</ion-label>
+        <ion-label style="font-size: 15px; color:white;" stacked>Mobile Number</ion-label>
         <ion-input [(ngModel)]="telephone" style="color:white;" type="tel"></ion-input>
       </ion-item>
 
       <ion-item no-lines>
         <i class="fa fa-key" item-end></i>
-        <ion-label style="font-size: 15px;" stacked>Password</ion-label>
+        <ion-label style="font-size: 15px; color:white;" stacked>Password</ion-label>
         <ion-input [(ngModel)]="password" style="color:white;" type="password"></ion-input>
       </ion-item>
 

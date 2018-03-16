@@ -30,8 +30,11 @@ page-signup {
         display: block;  
     }
 
+   
+
     .facebook{
-        margin-right: 20px !important;
+        display: block;
+        margin: 0 auto;
         height: 30px;
         width: 30px;
     }
@@ -42,7 +45,7 @@ page-signup {
     // }
 
     .google{
-        margin-left: 20px !important;
+        margin: 0 auto !important;
         height: 30px;
         width: 30px;
         display: block
@@ -68,12 +71,13 @@ page-signup {
         padding-top: 10% !important; 
     }
 
-    .back-arrow-button {
-        .fa-long-arrow-alt-left {
-          color: map-get($colors, dark) !important;
-          font-size: 20px;
+  
+        .fas-fa-angle-left {
+          color: map-get($colors, taxi) !important;
+          font-size: 30px;
           margin-left: 10px;
           margin-top: 4px;
         }
-      }
+
+     
 }
